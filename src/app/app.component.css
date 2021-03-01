@@ -1,0 +1,13 @@
+.container{
+    padding-top: 150px;
+}
+.section-heading{
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.item-box{
+    text-align: center;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+}
