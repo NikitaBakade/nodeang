@@ -1,16 +1,15 @@
 {
-  "name": "angular",
-  "version": "0.0.0",
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "nodemon index.js"
   },
-  "private": true,
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "@angular/animations": "~10.0.0",
     "@angular/cdk": "^10.2.7",
     "@angular/common": "~10.0.0",
@@ -44,5 +43,11 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.9.5"
+=======
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.14"
+>>>>>>> 7120530883a758f1714f2f2898281c95c4fe1706
   }
 }
